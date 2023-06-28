@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+
+/* *, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, pink, yellow, lightgreen);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 15px;
+    border: 1px solid rgba(35, 35, 35, 0.34);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.30);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 25px 35px;
+    padding-bottom: 25px;
+}
+
+.screen{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 35px;
+    text-align: right;
+    color: black;
+    border: 1px solid rgba(35, 35, 35, 0.01);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+}
+
+.calc-buttons-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    border: 1px solid rgba(35, 35, 35, 0.01);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: inherit;
+    color: black;
+    flex-basis: 20%;
+    height: 65px;
+}
+
+.calc-button:last-child{
+    background: rgba(59, 2, 244, 0.725);
+}
+
+.calc-button:hover{
+    background-color: inherit;
+}
+
+/* .calc-button:active{
+    background-color: red;
+} */
+
+.increase1{
+    flex-basis: 47%;
+}
+
+.increase2{
+    flex-basis: 73%;
+}
